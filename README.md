@@ -1,45 +1,42 @@
 # Краткое описание
 Emoji Bridge представляет собой современное веб-приложение, разработанное для предоставления пользователям удобного и интуитивно понятного интерфейса работы с эмодзи. Платформа сочетает в себе эстетически приятный дизайн, предлагая уникальный опыт взаимодействия с эмодзи.
+link website: emoji-bridge.vercel.app
 
 ## Запуск 
 **Клонируйте репозиторий** на вашу локальную машину:
     
     Выполните команду для клонирования репозитория:
 
-    ```bash
+    bash 
     git clone https://github.com/amir-art/emoji-bridge.git
-    ```
+    
     Откройте index.html в браузере:
 
-    ```bash
+    bash
     open index.html  # Для Mac/Linux
     start index.html # Для Windows
-    ```
+    
 
 ## Работа server.js
     Клонирование репозитория
 
-    ```bash
+    bash
 
     git clone https://github.com/amir-art/emoji-bridge.git
     cd emoji-bridge 
-    ```
-    Установка зависимостей для сервера
-    ```bash
-
+    
+    Установка зависимостей для сервера:
+    bash
     npm install
-    ```
-
-    Запуск сервера
-    ```bash
-
+    
+    Запуск сервера:
+    bash
     npm start
-    ```
+    
     or
 
-    ```bash
+    bash
     node server.js
-    ```
 
     Сервер запустится на порту 3000:
     
